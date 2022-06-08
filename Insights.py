@@ -15,7 +15,7 @@ def question_1(low,mid,high):
     result_str = f"Estimated freight budget(high range {high}%)  is ${total_freight * (1 + high/ 100):,.2f}\n"
     return result_str
 
-print(question_1(5,10,25))
+print(question_1(5,15,25))
 
 
 # Question 2:
